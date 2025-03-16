@@ -13,7 +13,6 @@ import { ToastrService } from 'ngx-toastr';
 export class RegisterComponent {
   private accountService = inject(AccountService);
   private toastr = inject(ToastrService);
-  usersFromHomeComponent = input.required<any>()
   cancelRegister = output<boolean>();
   model: any = {};
 
